@@ -38,8 +38,9 @@ The Book Inventory Management System is designed to help manage a collection of 
 - A web browser (Chrome, Firefox, etc.)
 
 ### Clone the Repository:
-```bash
-git clone <repository-url>
+
+bash
+git clone https://github.com/emadchy/SecondBind.git
 cd <repository-folder>
 Install Dependencies:
 bash
@@ -54,7 +55,7 @@ Copy code
 node initializeDatabase.js
 This script will create a file called books.db in your project directory and set up the table.
 
-Running the Application
+### Running the Application
 Start the Server:
 bash
 Copy code
@@ -64,7 +65,7 @@ The server will be running at: http://localhost:3000
 Access the Application:
 Open your browser and go to http://localhost:3000.
 
-Usage
+### Usage
 Add a New Book:
 Navigate to the Add a New Book section, fill out the form with the required information, and click the "Add Book" button to submit.
 
@@ -74,15 +75,17 @@ Enter search criteria (Title, Author, Genre) in the Search Books form and click 
 Export Book Inventory:
 Navigate to the Export Book Inventory section and choose either CSV or JSON format to download the current book list.
 
-Theme Switcher
+### Theme Switcher
 You can toggle between light and dark themes by clicking the lightbulb icon at the top right corner of the page. The lightbulb image changes the theme, switching the interface between Lime Green & Black for dark mode and Lime Green & White for light mode.
 
-Technologies Used
+### Technologies Used
 Frontend: HTML, CSS (with custom theming), JavaScript
 Backend: Node.js, Express.js
 Database: SQLite
 External Libraries: Body-parser (for handling form submissions)
-Project Structure
+
+
+### Project Structure
 plaintext
 Copy code
 /project-root
@@ -97,10 +100,12 @@ Copy code
 ├── books.db             (SQLite database file created after setup)
 ├── package.json         (NPM dependencies and scripts)
 └── README.md            (Documentation)
-License
+
+
+### License
 This project is open source and available under the MIT License.
 
-Future Enhancements
+### Future Enhancements
 Pagination for large inventories.
 Book cover images for each entry.
 More advanced filtering options (e.g., filter by date range or ISBN).
