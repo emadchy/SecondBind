@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const db = require('./database');
 const app = express();
-const port = 4000;
+const port = 3000;
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
