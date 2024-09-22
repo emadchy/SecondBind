@@ -12,8 +12,7 @@ This is a simple web-based application for managing a book inventory system. It 
 6. [Usage](#usage)
 7. [Theme Switcher](#theme-switcher)
 8. [Technologies Used](#technologies-used)
-9. [Project Structure](#project-structure)
-10. [License](#license)
+9. [License](#license)
 
 ## Project Overview
 
@@ -83,23 +82,6 @@ Frontend: HTML, CSS (with custom theming), JavaScript
 Backend: Node.js, Express.js
 Database: SQLite
 External Libraries: Body-parser (for handling form submissions)
-
-
-### Project Structure
-plaintext
-Copy code
-/project-root
-├── /node_modules        (Generated after npm install)
-├── /views               (HTML files for UI)
-│   └── index.html       (Main user interface)
-├── /images              (Assets like lightbulb icon)
-│   └── lightbulb-icon.png (Theme switcher icon)
-├── app.js               (Main application file)
-├── database.js          (Database connection and setup)
-├── initializeDatabase.js (Script to initialize the database schema)
-├── books.db             (SQLite database file created after setup)
-├── package.json         (NPM dependencies and scripts)
-└── README.md            (Documentation)
 
 
 ### License
